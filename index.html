@@ -1,0 +1,250 @@
+<!-- Miguel Isaac Vasconcelos Gomes 3°C 24/08/2025 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>QÉM?</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="p-3">
+  <nav class="container d-flex justify-content-between align-items-center flex-wrap">
+    <img src="img/QÉM.png" class="nav-img pequeno-logo" loading="lazy" alt="QÉM?">
+    <ul class="nav mt-3 mt-md-0">
+      <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Sobre">Sobre</a></li>
+      <li class="nav-item"><a class="nav-link" href="#galeria">Opiniões</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+    </ul>
+    <div id="acessibilidade" class="menu-acessibilidade">
+      <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">Acessibilidade</button>
+      <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+        <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+        <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
+        <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar o contraste de cores"><i class="bi bi-shadows"></i></button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container-fluid px-0">
+  <section id="inicio" class="my-0">
+    <div class="container inicio-fundo py-5">
+      <div class="esquerda-conteudo">
+        <h1 class="fst-italic fw-bold">Bem Vindo à</h1>
+        <h1 class="display-4 fw-bold mb-4">QÉM?</h1>
+        <p class="lead mb-4">O QÉM? é uma abreviação para "O Que é Música?", Algo que será abordado futuramente nesse site.</p>
+        <a href="#Sobre" class="btn btn-primary btn-lg botao-inicio fw-semibold">Entenda Mais...</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="Sobre" class="py-5 secao-QÉM" tabindex="0" aria-label="Seção sobre O que é Musica">
+    <div class="container d-flex align-items-center flex-wrap py-5">
+      <div class="col-md-5 d-flex justify-content-center mb-5 mb-md-0">
+        <img src="img/VI.jpeg" width="400" height="500" loading="lazy" alt="">
+      </div>
+         
+      <div class="col-md-7 ps-md-5">
+        <h2>A Arte da Música.</h2>
+        <p class="p-2"> A música vai muito além de estar em um palco, cantar, tocar um instrumento ou assistir a uma apresentação. </p>
+        <p class="p-2"> Ela é, acima de tudo, uma forma de expressão — um idioma universal que fala direto ao coração. Cada letra, cada tom, carrega a emoção e a visão única de quem canta, compõe ou interpreta. É fascinante perceber como a mesma canção pode ganhar novos significados dependendo de quem a transmite. </p>
+        <p class="p-2"> Aqui, neste espaço, você vai descobrir olhares e reflexões de autores, compositores e artistas brasileiros sobre como eles sentem e enxergam a música. Tudo de forma breve, leve e inspiradora. </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens de artistas">
+    <div class="container py-5">
+      <h2 class="text-center"><strong>Opiniões dos artistas</strong></h2>
+      <hr>
+
+      <!-- Chorão -->
+        <div class="row align-items-center gallery-item fundo-chorao my-4">
+        <div class="col-md-4 text-center">
+          <img src="img/Chorão.png" loading="lazy" alt="Chorao">
+        </div>
+        <div class="col-md-8">
+          <div class="gallery-caption">
+            <h2><strong>Chorão:</strong></h2>
+            <hr>
+            <p>A história do rock brasileiro não pode ser contada sem Chorão. À frente do Charlie Brown Jr., ele uniu rock, rap, reggae e skate punk em letras urbanas, sinceras e cheias de atitude, que marcaram a juventude como hinos de liberdade e superação. </p>
+            <p>Mesmo sem explicar diretamente o que a música representava, era claro: para Chorão, cantar era colocar a alma em cada melodia e transformá-la em espelho para quem também acreditava nos próprios sentimentos.</p>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <h3><Strong>E, nas palavras dele:</Strong></h3>
+          <hr>
+          <p class="gallery-extra"><strong>“O melhor que a gente pode ter na vida são as coisas básicas: é ter no que acreditar, é viver em função de um sonho. Eu tenho uma alma que é feita de sonhos.”</strong></p>
+          <p class="gallery-extra"><strong>“Música que dá trabalho para fazer não fica boa. As que fazem sucesso são sempre aquelas que aparecem sem muito planejamento, simples e espontâneas.”</strong></p>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Elis Regina -->
+      <div class="row align-items-center gallery-item fundo-elis my-4">
+        <div class="col-md-4 text-center">
+          <img src="img/Elis.png" loading="lazy" alt="Elis">
+        </div>
+        <div class="col-md-8">
+          <div class="gallery-caption">
+            <h2><strong>Elis Regina:</strong></h2>
+            <hr>
+            <p>Elis Regina Carvalho Costa, a eterna “Pimentinha”, foi mais que uma das maiores cantoras brasileiras: era pura emoção, talento e presença. Com técnica vocal impecável e interpretações intensas, marcou para sempre a MPB em clássicos como Como Nossos Pais e O Bêbado e a Equilibrista. Desde os anos 1960, construiu uma carreira de virtuosismo e coragem, tornando-se referência definitiva para gerações seguintes.</p>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <h3><strong>Sua relação com a música não nasceu apenas de paixão, mas também de necessidade. Como ela mesma disse:</strong></h3>
+          <hr>
+          <p><strong>“Comecei a cantar por uma absoluta e total necessidade de afirmação.”</strong></p>
+          <p>Esse início, carregado de intensidade e até de um certo peso, moldou a forma como ela se entregava ao canto. Em suas interpretações, havia sempre algo mais profundo uma mistura de melancolia e indignação, de beleza e urgência. Elis cantava sobre a vida, sobre dores e esperanças, sobre histórias que precisavam ser contadas.</p>
+          <p>E assim, com cada nota, ela não apenas cantava: Ela tocava corações, despertava consciências e eternizava sentimentos.</p>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Seu Jorge -->
+      <div class="row align-items-center gallery-item fundo-seujorge my-4">
+        <div class="col-md-4 text-center">
+          <img src="img/Seu Jorge.png" loading="lazy" alt="Seu Jorge">
+        </div>
+        <div class="col-md-8">
+          <div class="gallery-caption">
+            <h2><strong>Seu Jorge:</strong></h2>
+            <hr>
+            <p>Jorge Mário da Silva, o Seu Jorge, é cantor, compositor e ator, reconhecido mundialmente pela sua mistura única de samba, MPB, funk e soul. Nascido e criado na Baixada Fluminense, superou uma infância difícil para se tornar um dos artistas mais versáteis e respeitados do Brasil. </p>
+            <p>Entre seus sucessos estão Burguesinha e as versões em português das músicas de David Bowie para o filme The Life Aquatic. Seu Jorge é lembrado por unir a força da música popular à sofisticação de sua interpretação, sempre carregada de carisma.</p>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <h3><Strong>Ele revela que a música surgiu em sua vida de maneira espontânea, sem planejamento:</Strong></h3>
+          <hr>
+          <p><strong>“Venho de um lugar que tem a tradição do encontro... tocar, cantar e fazer samba e festa... não era com um propósito de construir uma carreira artística, era apenas pensando em fazer amigos e me aproximar de algo especial.”</strong></p>
+          <hr>
+        </div>
+      </div>
+
+      <!-- AnaVitória -->
+     <div class="row align-items-center gallery-item fundo-seujorges my-4">
+        <div class="col-md-4 text-center">
+          <img src="img/Anavitoria.png" loading="lazy" alt="Seu Jorges">
+        </div>
+        <div class="col-md-8">
+          <div class="gallery-caption">
+            <h2><strong>AnaVitória:</strong></h2>
+            <hr>
+            <p>AnaVitória é a dupla formada por Ana Caetano e Vitória Falcão, que desde 2014 conquistou o público com seu “pop rural”, misturando folk, MPB e pop em canções delicadas e emocionantes. </p>
+            <p>Vindas do Tocantins, destacam-se pelo tom intimista, letras românticas e melodias envolventes, tornando-se vozes queridas da nova geração da música brasileira.</p>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <h3><strong>Sobre o trabalho da dupla, Ana expressou de forma simples e verdadeira o que as move no palco:</strong></h3>
+          <hr>
+          <p><strong>“Somos cancioneiros, a gente fala de amor.”</strong></p>
+          <p>Para elas, música é falar dos sentimentos mais essenciais, transformando emoções em som. </p>
+          <p>Em cada canção, o ouvinte encontra um folk-pop suave, harmônico e repleto de leveza, que transmite romantismo e aproxima corações. </p>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Rita Lee -->
+      <div class="row align-items-center gallery-item fundo-rita my-4">
+        <div class="col-md-4 text-center">
+          <img src="img/Rita.png" loading="lazy" alt="Rita Lee">
+        </div>
+        <div class="col-md-8">
+          <div class="gallery-caption">
+            <h2><strong>Rita Lee:</strong></h2>
+            <hr>
+            <p>Rita Lee Jones de Carvalho, a eterna “Rainha do Rock Brasileiro”, foi cantora, compositora e multi-instrumentista. Começou sua trajetória nos Mutantes, banda fundamental para o movimento da Tropicália, e depois seguiu carreira solo, onde uniu irreverência, humor e feminismo em músicas que atravessaram gerações, como Ovelha Negra e Mania de Você. </p>
+            <p>Mais do que uma artista, Rita tornou-se um símbolo de liberdade, autenticidade e constante renovação na música popular brasileira.</p>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <h3><Strong>Sobre si mesma, Rita disse algo que revela muito de sua essência:</Strong> </h3>
+          <hr>
+          <p><strong>“Eu não acho que tenho voz, que não sou cantora. Não gosto da minha voz... Eu não me proponho a ser uma Elis Regina, jamais! Tenho outras coisas para me compensar: faço letra, toco flauta… Eu não sou cantora. Eu sou uma pessoa.”</strong></p>
+          <p>Essas palavras refletem a autenticidade de Rita, que se via antes de tudo como uma artista multifacetada. Para ela, não era necessário seguir o estereótipo de “grande cantora”; bastava ser verdadeira, e nisso ela se destacou.</p>
+          <hr>
+        </div>
+      </div>
+
+      <!-- Djavan -->
+      <div class="row align-items-center gallery-item fundo-djavan my-4">
+        <div class="col-md-4 text-center">
+          <img src="img/Djavan.png" loading="lazy" alt="Djavan">
+        </div>
+        <div class="col-md-8">
+          <div class="gallery-caption">
+            <h2><strong>Djavan:</strong></h2>
+            <hr>
+            <p>Djavan Caetano Viana é cantor, compositor e violonista alagoano, reconhecido por sua rara habilidade de unir diferentes gêneros, como samba, jazz, pop e bossa nova, com uma poesia musical única.</p>
+            <p>Ao longo de mais de quatro décadas de carreira, presenteou o Brasil com clássicos como Oceano, Flor de Lis e Samurai. Com letras profundas, melodias sofisticadas e um timbre inconfundível, Djavan tornou-se um dos artistas mais respeitados e admirados da música brasileira.</p>
+          </div>
+        </div>
+        <div class="col-12 mt-3">
+          <h3><strong>Para ele, a música é mais do que arte: é uma necessidade vital. Como o próprio diz: </strong></h3>
+          <hr>
+          <p><strong>“A composição é uma necessidade física. Preciso periodicamente trazer novas palavras, novas harmonias e melodias... Comporei e cantarei até o final da minha vida. Tenho essa inquietude.”</strong></p>
+          <p>Djavan acredita que a inspiração não segue calendário. Ela vem da intensidade e da constância com que se cultiva o fazer artístico. Em suas palavras:</p>
+          <p><strong>“A inspiração... advém da necessidade de fazer... Eu tenho uma coisa comigo que eu sei que me ajuda muito: periodicamente, eu tenho uma necessidade visceral de mostrar novas palavras, novas melodias, novas harmonias. Eu tenho que fazer, senão eu morro!”</strong> </p>
+          <hr>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<section id="contato">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 formulario">
+        <h2 class="mb-4">Entre em Contato</h2>
+        <p class="text-center mb-4">Para informações sobre shows, projetos ou parcerias</p>
+        <form>
+          <div class="row mb-3">
+            <div class="col-md-6 mb-3 mb-md-0">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" id="nome" name="nome" class="form-control rounded-3" placeholder="Seu nome completo">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-control rounded-3" placeholder="Seu melhor email">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="assunto" class="form-label">Assunto</label>
+            <input type="text" id="assunto" name="assunto" class="form-control rounded-3" placeholder="Qual o motivo do contato?">
+          </div>
+          <div class="mb-4">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" class="form-control rounded-4" rows="4" placeholder="Escreva sua mensagem..."></textarea>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary btn-lg rounded-pill py-3">Enviar Mensagem</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-5">
+  <p>Acesse nossas redes:</p>
+  <div class="my-3">
+    <i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i> <i class="bi bi-instagram"></i>
+  </div>
+  <p>&copy; 2025 QÉM? | Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="java.js"></script>
+</body>
+</html>
