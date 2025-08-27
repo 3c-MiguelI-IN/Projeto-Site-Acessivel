@@ -1,33 +1,42 @@
 /* Miguel Isaac Vasconcelos Gomes 3°C 24/08/2025 */
+:root {
+  
+  --laranja-claro: #FF8C42;      
+  --laranja-escuro: #C35A17;     
 
-:root { 
-  --laranja-claro: #FF862A;
-  --laranja-escuro: #C56B1F;
-  --fundo-escuro: #2E2E2E;
-  --fundo-claro: #FAF4F4;
-  --texto-escuro: #1A1A1A;
-  --texto-claro: #fceded;
+  --fundo-escuro: #2B2B2B;      
+  --fundo-claro: #FAF9F7;      
 
-  --pastel-rosa: #F2D7D5;
-  --pastel-verde: #D5F2E3;
-  --pastel-azul: #D6EAF8;
-  --cinza-claro: #E0E0E0;
+  --texto-escuro: #222222;      
+  --texto-claro: #F0EDED;      
+
+  
+  --pastel-rosa: #F5D5D0;
+  --pastel-verde: #CDE6D0;
+  --pastel-azul: #C9DFF0;
+
+
+  --cinza-claro: #DADADA;
+
+  
   --azul-escuro: #2A3F5F;
 
-
-  --fundo-chorao: #790707;   
-  --fundo-elis: #FDE2F3;    
-  --fundo-seujorge: #D6F8F0; 
-  --fundo-seujorges: #867d28; 
-  --fundo-rita: #FFF2B5;    
-  --fundo-djavan: #E3D6F8;   
+  
+  --fundo-chorao: #8B1B1B;     
+  --fundo-elis: #FDE9F2;       
+  --fundo-seujorge: #CFF7F0;   
+  --fundo-seujorges: #8A7B2B;  
+  --fundo-rita: #FFF7C1;       
+  --fundo-djavan: #D7CDF8;     
 }
+
 
 body,
 .gallery-caption,
 .formulario {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 
 body {
   font-size: 1rem;
@@ -36,18 +45,22 @@ body {
   color: var(--texto-claro);
 }
 
+
 header {
   background-color: var(--fundo-escuro);
 }
 
+
 .nav-link {
   color: var(--laranja-claro);
-  font-weight: 500;
+  font-weight: 600;
+  transition: color 0.3s ease;
 }
 
 .nav-link:hover {
   color: var(--laranja-escuro);
 }
+
 
 #inicio,
 #Sobre,
@@ -55,6 +68,7 @@ header {
   background-color: var(--pastel-azul);
   color: var(--texto-escuro);
 }
+
 
 .gallery-item {
   margin-bottom: 2rem;
@@ -65,39 +79,45 @@ header {
 
 
 .fundo-chorao {
-  background-color: var(--fundo-chorao); 
+  background-color: var(--fundo-chorao);
+  color: var(--texto-claro);
 }
 
 .fundo-elis {
   background-color: var(--fundo-elis);
+  color: var(--texto-escuro);
 }
 
 .fundo-seujorge {
   background-color: var(--fundo-seujorge);
+  color: var(--texto-escuro);
 }
-
 
 .fundo-seujorges {
   background-color: var(--fundo-seujorges);
+  color: var(--texto-claro);
 }
 
 .fundo-rita {
   background-color: var(--fundo-rita);
+  color: var(--texto-escuro);
 }
 
 .fundo-djavan {
   background-color: var(--fundo-djavan);
+  color: var(--texto-escuro);
 }
+
 
 .gallery-caption {
   margin-top: 1rem;
   border-radius: 10px;
   padding: 1rem;
-  font-weight: 500;
-  
-  background-color: rgba(255,255,255,0.8);
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.85);
   color: var(--texto-escuro);
 }
+
 
 .gallery-item img {
   width: 100%;
@@ -113,10 +133,12 @@ header {
   }
 }
 
+
 #contato {
   background-color: var(--fundo-escuro);
   color: var(--texto-claro);
 }
+
 
 .formulario {
   background-color: var(--pastel-verde);
@@ -135,6 +157,16 @@ header {
 .formulario textarea {
   color: var(--texto-escuro);
   background-color: #fff;
+  border: 1px solid var(--cinza-claro);
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: none;
+  border-color: var(--laranja-claro);
+  box-shadow: 0 0 5px var(--laranja-claro);
 }
 
 .formulario button {
@@ -142,6 +174,15 @@ header {
   border: none;
   font-weight: bold;
   color: var(--texto-claro);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: var(--laranja-claro);
+  color: var(--texto-escuro);
 }
 
 
@@ -180,4 +221,5 @@ header {
 
 .btn {
   border-radius: 8px;
+  cursor: pointer;
 }
